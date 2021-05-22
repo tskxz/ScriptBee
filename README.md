@@ -11,6 +11,14 @@ Para correr o script, primeiramente, é necessário ter instalado no seu sistema
 Para correr o script, abra o cmd e vá para o diretório do scriptbee com `cd ScriptBee` e faça `python3 bee.py`
 ### Instalação no linux (Debian)
 `sudo apt-get install git`  
+`sudo apt-get install python2`
+`git clone https://github.com/tanjilk/ScriptBee.git`  
+`cd ScriptBee`  
+`python3 bee.py`  
+
+### Instalação no linux (Arch)
+`sudo pacman -S git`  
+`sudo pacman -S python2`  
 `git clone https://github.com/tanjilk/ScriptBee.git`  
 `cd ScriptBee`  
 `python3 bee.py`  
