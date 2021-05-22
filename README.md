@@ -19,8 +19,10 @@ Poderá fazer download do [zip](https://github.com/tanjilk/ScriptBee/archive/ref
 Para correr o script, primeiramente, é necessário ter instalado no seu sistema operativo, o python3, este script só funciona com python3. Pode fazer o download [aqui](https://www.python.org/downloads/)
 
 Para correr o script, abra o cmd e vá para o diretório do scriptbee com 
-`cd ScriptBee`  
-`python3 bee.py`  
+```
+cd ScriptBee  
+python3 bee.py
+```
 
 ## Instalação no linux (Debian)
 ### Instalar no debian
