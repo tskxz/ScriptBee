@@ -18,7 +18,7 @@ Para correr o script, abra o cmd e vá para o diretório do scriptbee com `cd Sc
 ### Instalação no linux (Debian)
 #### Instalar no debian
 `sudo apt-get install git`  
-`sudo apt-get install python3`
+`sudo apt-get install python3`  
 `git clone https://github.com/tanjilk/ScriptBee.git`  
 `cd ScriptBee`  
 `python3 bee.py`  
