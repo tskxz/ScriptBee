@@ -56,7 +56,7 @@ def usage():
     blink = '\33[5m'
     print ('---------------------------------------------------')
     print (blink + 'USO: python bee.py <link>' + blink)
-    print (blink + 'Pode adicionar "safe" após o url, para desligar após o dos' + blink)
+    print (blink + 'Pode adicionar "safe" após o url, para desligar após o DDOS' + blink)
     print ('---------------------------------------------------')
 
 
@@ -112,7 +112,7 @@ class MonitorThread(threading.Thread):
                 print("%d Requests Sent" % (request_counter))
                 previous = request_counter + 100
         if flag == 2:
-            print("\n[*] Ataque DOS acabado!")
+            print("\n[*] Ataque DDOS acabado!")
 
 
 # execute
@@ -133,12 +133,12 @@ else:
             /(       )\
 
           /   (%%%%%)   \
-          
+
                (%%%)
                  !
 """
     print(CYELLOW + echo_icon)
-    print(CYELLOW + "[*] Ataque DOS prestes a comecar, prepare-se!" + CYELLOW)
+    print(CYELLOW + "[*] Ataque DDOS prestes a comecar, prepare-se!" + CYELLOW)
     if len(sys.argv) == 3:
         if sys.argv[2] == "safe":
             set_safe()
