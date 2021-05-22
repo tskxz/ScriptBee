@@ -5,7 +5,7 @@ Script de DDOS em Português
 ## Instalação em diversos sistemas operativos
   - [Windows](#instalar-no-windows)
   - [Debian](#instalar-no-debian)
-  - [Arch](#instalar-no-arch)4
+  - [Arch](#instalar-no-arch)
   - [Termux](#termux)
 
 ### Instalação no Windows (7, 8, 10)
