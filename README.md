@@ -2,7 +2,7 @@
 # ScriptBee  
 Script de DDOS em Português  
 
-### Instalação no Windows
+### Instalação no Windows (7, 8, 10)
 No sistema operativo windows, é opcional baixar git no site deles do [git](https://git-scm.com/downloads) para poder fazer git clone  
 Poderá fazer download do [zip](https://github.com/tanjilk/ScriptBee/archive/refs/heads/master.zip) se não quiser através do bash do git  
 
