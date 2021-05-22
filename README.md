@@ -18,7 +18,7 @@ Para correr o script, abra o cmd e vá para o diretório do scriptbee com `cd Sc
 ### Instalação no linux (Debian)
 #### Instalar no debian
 `sudo apt-get install git`  
-`sudo apt-get install python2`
+`sudo apt-get install python3`
 `git clone https://github.com/tanjilk/ScriptBee.git`  
 `cd ScriptBee`  
 `python3 bee.py`  
@@ -26,7 +26,7 @@ Para correr o script, abra o cmd e vá para o diretório do scriptbee com `cd Sc
 ### Instalação no linux (Arch)
 #### Instalar no arch
 `sudo pacman -S git`  
-`sudo pacman -S python2`  
+`sudo pacman -S python3`  
 `git clone https://github.com/tanjilk/ScriptBee.git`  
 `cd ScriptBee`  
 `python3 bee.py`  
