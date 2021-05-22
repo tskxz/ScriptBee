@@ -1,5 +1,5 @@
 ![img](https://raw.githubusercontent.com/tanjilk/ScriptBee/master/img/icon.ico)  
-<h1 align="ScriptBee"></h1>  
+<h1 align="center">ScriptBee</h1>  
 Script de DDOS em Português  
 
 # Instalação em diversos sistemas operativos
