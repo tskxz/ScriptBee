@@ -32,18 +32,19 @@ Para correr o script, abra o cmd e vá para o diretório do scriptbee com
 
 ## Instalação no linux (Arch)
 ### Instalar no arch
-`sudo pacman -S git`  
-`sudo pacman -S python3`  
-`git clone https://github.com/tanjilk/ScriptBee.git`  
-`cd ScriptBee`  
-`python3 bee.py <url>`  
+```sudo pacman -S git
+sudo pacman -S python3
+git clone https://github.com/tanjilk/ScriptBee.git
+cd ScriptBee
+python3 bee.py <url>
+```
 
 ## Instalação no Termux (Termux)
 ### Instalar no termux
-`pkg install git`    
-`git clone https://github.com/tanjilk/ScriptBee.git`  
-`cd ScriptBee`  
-`python3 bee.py <url>`  
-
+```pkg install git  
+git clone https://github.com/tanjilk/ScriptBee.git 
+cd ScriptBee  
+python3 bee.py <url>    
+```
  ## CREDITS
  https://github.com/grafov
