@@ -5,7 +5,7 @@
 <h1 align="center">ScriptBee</h1>  
 
 
-# Instalação em diversos sistemas operativos
+# 💻 Instalação em diversos sistemas operativos
   - [Windows](#instalar-no-windows)
   - [Debian](#instalar-no-debian)
   - [Arch](#instalar-no-arch)
