@@ -5,7 +5,8 @@ Script de DDOS em Português
 ## Instalação em diversos sistemas operativos
   - [Windows](#instalar-no-windows)
   - [Debian](#instalar-no-debian)
-  - [Arch](#instalar-no-arch)
+  - [Arch](#instalar-no-arch)4
+  - [Termux](#termux)
 
 ### Instalação no Windows (7, 8, 10)
 #### Instalar no windows
@@ -14,7 +15,10 @@ Poderá fazer download do [zip](https://github.com/tanjilk/ScriptBee/archive/ref
 
 Para correr o script, primeiramente, é necessário ter instalado no seu sistema operativo, o python3, este script só funciona com python3. Pode fazer o download [aqui](https://www.python.org/downloads/)
 
-Para correr o script, abra o cmd e vá para o diretório do scriptbee com `cd ScriptBee` e faça `python3 bee.py`
+Para correr o script, abra o cmd e vá para o diretório do scriptbee com 
+`cd ScriptBee`  
+`python3 bee.py`  
+
 ### Instalação no linux (Debian)
 #### Instalar no debian
 `sudo apt-get install git`  
@@ -27,6 +31,13 @@ Para correr o script, abra o cmd e vá para o diretório do scriptbee com `cd Sc
 #### Instalar no arch
 `sudo pacman -S git`  
 `sudo pacman -S python3`  
+`git clone https://github.com/tanjilk/ScriptBee.git`  
+`cd ScriptBee`  
+`python3 bee.py <url>`  
+
+### Instalação no Termux (Termux)
+#### Instalar no termux
+`pkg install git`    
 `git clone https://github.com/tanjilk/ScriptBee.git`  
 `cd ScriptBee`  
 `python3 bee.py <url>`  
