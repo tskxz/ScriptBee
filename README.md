@@ -3,7 +3,7 @@
 </p>
  
 <h1 align="center">ScriptBee</h1>  
-Script de DDOS em Português  
+
 
 # Instalação em diversos sistemas operativos
   - [Windows](#instalar-no-windows)
