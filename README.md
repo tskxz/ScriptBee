@@ -1,4 +1,7 @@
-![img](https://raw.githubusercontent.com/tanjilk/ScriptBee/master/img/icon.ico)  
+<p align="center">
+  ![img](https://raw.githubusercontent.com/tanjilk/ScriptBee/master/img/icon.ico) 
+</p>
+ 
 <h1 align="center">ScriptBee</h1>  
 Script de DDOS em Português  
 
