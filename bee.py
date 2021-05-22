@@ -53,10 +53,12 @@ def buildblock(size):
 
 
 def usage():
+    blink = '\33[5m'
     print ('---------------------------------------------------')
-    print ('USO: python bee.py <link>')
-    print ('Pode adicionar "safe" após o url, para desligar após o dos')
+    print (blink + 'USO: python bee.py <link>' + blink)
+    print (blink + 'Pode adicionar "safe" após o url, para desligar após o dos' + blink)
     print ('---------------------------------------------------')
+
 
 
 # http request
@@ -118,7 +120,25 @@ if len(sys.argv) < 2 or sys.argv[1] == "help":
     usage()
     sys.exit()
 else:
-    print("[*] Ataque DOS prestes a comecar, prepare-se!")
+    CYELLOW = '\33[33m'
+    echo_icon = """
+                  \     /
+          \    o ^ o    /
+            \ (     ) /
+ ____________(%%%%%%%)____________
+(     /   /  )%%%%%%%(  \   \     )
+(___/___/__/           \__\___\___)
+   (     /  /(%%%%%%%)\  \     )
+    (__/___/ (%%%%%%%) \___\__)
+            /(       )\
+
+          /   (%%%%%)   \
+          
+               (%%%)
+                 !
+"""
+    print(CYELLOW + echo_icon)
+    print(CYELLOW + "[*] Ataque DOS prestes a comecar, prepare-se!" + CYELLOW)
     if len(sys.argv) == 3:
         if sys.argv[2] == "safe":
             set_safe()
