@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tanjilk/overload/main/img/imgshow.png">
+  <img src="https://raw.githubusercontent.com/tanjilk/ScriptBee/master/img/icon.ico">
 </p>
  
 <h1 align="center">ScriptBee</h1>  
